@@ -1,0 +1,71 @@
+/* Pengaturan Header dan Image
+----------------------*/
+header {
+    padding: 100px 0 0;
+    text-align: center;
+    color: #fff55a;
+}
+
+.bg-img {
+    background-image: url('../img/bg-slide-1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tagline {
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+    max-width: 800px;
+    margin: 0 0 20px 0;
+}
+
+.img-holder {
+    height: 0;
+    padding-bottom: 33%;
+    overflow: hidden;
+}
+
+@media (max-width:1200px) {
+    .img-holder {
+        padding-bottom: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .tagline {
+        font-size: 17px;
+    }
+    .img-holder {
+        padding-bottom: 100%;
+    }
+}
+
+
+/*  Scholar
+----------------------*/
+
+.owl-carousel .owl-item img.scholar-img {
+    width: 250px;
+    margin: 30px auto;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}
+
+.scholar-single {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.blockquote {
+    color: #7a767a;
+    font-weight: 300;
+}
+
+.owl-carousel .owl-item img.news-img {
+    width: 400px;
+    margin: 30px auto;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}

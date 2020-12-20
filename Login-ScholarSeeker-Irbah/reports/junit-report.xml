@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="signin-on-the-website;user-success-to-signin-on-the-website" tests="5" failures="1" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="C:/xampp/htdocs/ScholarSeeker/features/signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.001096501">
+        </testcase>
+        <testcase name="And user fill email field" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.000373">
+        </testcase>
+        <testcase name="And user fill password" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.000488001">
+        </testcase>
+        <testcase name="When user click button sign in" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.000276699">
+        </testcase>
+        <testcase name="Then user can see home scholarseeker" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="8.195522399">
+            <failure message="AssertionError: expected 0 to not equal 0">AssertionError: expected 0 to not equal 0
+    at C:\xampp\htdocs\ScholarSeeker\step-definitions\signin-steps.js:26:44
+    at ManagedPromise.invokeCallback_ (C:\xampp\htdocs\ScholarSeeker\node_modules\selenium-webdriver\lib\promise.js:1384:14)
+    at TaskQueue.execute_ (C:\xampp\htdocs\ScholarSeeker\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (C:\xampp\htdocs\ScholarSeeker\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at C:\xampp\htdocs\ScholarSeeker\node_modules\selenium-webdriver\lib\promise.js:2935:27
+    at C:\xampp\htdocs\ScholarSeeker\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+        </testcase>
+    </testsuite>
+</testsuites>

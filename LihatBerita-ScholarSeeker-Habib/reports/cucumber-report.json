@@ -1,0 +1,105 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to signin",
+    "elements": [
+      {
+        "id": "signin-on-the-website;user-success-to-signin-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to signin on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse signin page",
+            "result": {
+              "status": "passed",
+              "duration": 1297901
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\xampp\\htdocs\\ScholarSeeker\\step-definitions\\signin-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 227300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\xampp\\htdocs\\ScholarSeeker\\step-definitions\\signin-steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password",
+            "result": {
+              "status": "passed",
+              "duration": 316700
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\xampp\\htdocs\\ScholarSeeker\\step-definitions\\signin-steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click button sign in",
+            "result": {
+              "status": "passed",
+              "duration": 506400
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\xampp\\htdocs\\ScholarSeeker\\step-definitions\\signin-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user can see home scholarseeker",
+            "result": {
+              "status": "passed",
+              "duration": 9095194701
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\xampp\\htdocs\\ScholarSeeker\\step-definitions\\signin-steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 315123400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\xampp\\htdocs\\ScholarSeeker\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "signin-on-the-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "signin on the website",
+    "tags": [],
+    "uri": "C:/xampp/htdocs/ScholarSeeker/features/signin.feature"
+  }
+]

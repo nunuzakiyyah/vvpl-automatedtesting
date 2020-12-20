@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="see-scholar-on-the-website;user-success-to-see-scholar-on-the-website" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/features/scholar.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse home page" classname="see-scholar-on-the-website;user-success-to-see-scholar-on-the-website" time="0.000697422">
+        </testcase>
+        <testcase name="And user click button scholar" classname="see-scholar-on-the-website;user-success-to-see-scholar-on-the-website" time="0.000230936">
+        </testcase>
+        <testcase name="And user click button read more" classname="see-scholar-on-the-website;user-success-to-see-scholar-on-the-website" time="0.000177294">
+        </testcase>
+        <testcase name="When user click scholar Jalur Prestasi Unggulan" classname="see-scholar-on-the-website;user-success-to-see-scholar-on-the-website" time="0.000197501">
+        </testcase>
+        <testcase name="Then user can see scholar page" classname="see-scholar-on-the-website;user-success-to-see-scholar-on-the-website" time="5.620711961">
+        </testcase>
+    </testsuite>
+</testsuites>

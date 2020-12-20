@@ -1,0 +1,105 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to see scholar",
+    "elements": [
+      {
+        "id": "see-scholar-on-the-website;user-success-to-see-scholar-on-the-website",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User success to see scholar on the website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse home page",
+            "result": {
+              "status": "passed",
+              "duration": 697422
+            },
+            "line": 9,
+            "match": {
+              "location": "/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/step-definitions/scholar-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click button scholar",
+            "result": {
+              "status": "passed",
+              "duration": 230936
+            },
+            "line": 10,
+            "match": {
+              "location": "/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/step-definitions/scholar-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click button read more",
+            "result": {
+              "status": "passed",
+              "duration": 177294
+            },
+            "line": 11,
+            "match": {
+              "location": "/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/step-definitions/scholar-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click scholar Jalur Prestasi Unggulan",
+            "result": {
+              "status": "passed",
+              "duration": 197501
+            },
+            "line": 12,
+            "match": {
+              "location": "/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/step-definitions/scholar-steps.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user can see scholar page",
+            "result": {
+              "status": "passed",
+              "duration": 5620711961
+            },
+            "line": 13,
+            "match": {
+              "location": "/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/step-definitions/scholar-steps.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 204142259
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "see-scholar-on-the-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "see scholar on the website",
+    "tags": [],
+    "uri": "/Applications/XAMPP/xamppfiles/htdocs/ScholarSeeker/features/scholar.feature"
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="signin-on-the-website;user-success-to-signin-on-the-website" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="C:/xampp/htdocs/ScholarSeeker/features/signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.001297901">
+        </testcase>
+        <testcase name="And user fill email field" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.0002273">
+        </testcase>
+        <testcase name="And user fill password" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.0003167">
+        </testcase>
+        <testcase name="When user click button sign in" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="0.0005064">
+        </testcase>
+        <testcase name="Then user can see home scholarseeker" classname="signin-on-the-website;user-success-to-signin-on-the-website" time="9.095194701">
+        </testcase>
+    </testsuite>
+</testsuites>

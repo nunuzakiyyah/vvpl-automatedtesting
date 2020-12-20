@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #fff55a;
+}
+
+/*============= NAVBAR =============*/
+.navbar {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: #3e4d64!important;
+}
+.navbar-brand img{
+	height: 2rem;
+}
+.navbar-nav li {
+	padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff55a;
+	padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: white;
+}
+
+/*============= Slider SECTION =============*/
+.carousel-item {
+	height: 100vh;
+}
+
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+}
+.carousel-caption h1 {
+	color: #fff55a;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+.carousel-caption h3 {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+/*============= CUSTOM BUTTON =============*/
+.btn-custom {
+	border-radius: 24px;
+	background-color: transparent;
+	border-width: 3px;
+	border-color: #fff55a;
+}
+.btn-custom:hover{
+	background-color: #1f4681;
+	border-color: #fff55a;
+}
+/*============= COURSE SECTION =============*/
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+footer {
+	background-color: #3e4d64;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

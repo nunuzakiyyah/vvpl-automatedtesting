@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="signup-on-the-website;user-success-to-signup-on-the-website" tests="8" failures="1" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="/Users/adeandreansyah/Downloads/ScholarSeeker/features/signup.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signup page" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="0.000549743">
+        </testcase>
+        <testcase name="And user fill email field" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="0.00014065">
+        </testcase>
+        <testcase name="And user fill username field" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="0.000124865">
+        </testcase>
+        <testcase name="And user fill password" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="0.000115997">
+        </testcase>
+        <testcase name="And user fill confirm" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="0.000142072">
+        </testcase>
+        <testcase name="And user choose mahasiswa radiobutton" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="0.000106592">
+        </testcase>
+        <testcase name="When user click button sign up" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="0.000100132">
+        </testcase>
+        <testcase name="Then user can see signin page with success message" classname="signup-on-the-website;user-success-to-signup-on-the-website" time="2.812126511">
+            <failure message="AssertionError: expected 0 to not equal 0">AssertionError: expected 0 to not equal 0
+    at /Users/adeandreansyah/Downloads/ScholarSeeker/step-definitions/signup-steps.js:52:38
+    at ManagedPromise.invokeCallback_ (/Users/adeandreansyah/Downloads/ScholarSeeker/node_modules/selenium-webdriver/lib/promise.js:1384:14)
+    at TaskQueue.execute_ (/Users/adeandreansyah/Downloads/ScholarSeeker/node_modules/selenium-webdriver/lib/promise.js:3092:14)
+    at TaskQueue.executeNext_ (/Users/adeandreansyah/Downloads/ScholarSeeker/node_modules/selenium-webdriver/lib/promise.js:3075:27)
+    at /Users/adeandreansyah/Downloads/ScholarSeeker/node_modules/selenium-webdriver/lib/promise.js:2935:27
+    at /Users/adeandreansyah/Downloads/ScholarSeeker/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+        </testcase>
+    </testsuite>
+</testsuites>
